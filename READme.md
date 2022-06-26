@@ -15,4 +15,5 @@ alembic upgrade head
 
 
 **Запуск сервера** \
-docker run --rm hello
+uvicorn main:app --reload
+
